@@ -18,7 +18,7 @@ public class Main {
         System.out.println("____________________________");
 
         Map<String, String> newUser = new HashMap<>();
-        newUser.put("login","customer");
+        newUser.put("login","customer-10");
         newUser.put("password","qwerty");
         newUser.put("email","customer@example.com");
         int number = dbService.postLogin(newUser);
